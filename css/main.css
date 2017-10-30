@@ -1,6 +1,5 @@
-/*
- * Estilos de tu proyecto
- */
+/* * Estilos de tu proyecto*/
+
  * {
 	-webkit-box-sizing: border-box;
 	-moz-box-sizing: border-box;
@@ -11,11 +10,11 @@
 	-moz-box-sizing: border-box;
 	box-sizing: border-box;
 }
-body {
+body { /* Definiendo margen 0 al body*/
 	margin: 0 auto;
 }
-header{
-  position: fixed;
+header{ /* estilos del header*/
+  position: fixed; /* fijo*/
   background-color: #2c3e50;
   margin: 0;
   width: 100%;
@@ -26,7 +25,7 @@ header{
   padding-left: 40px;
   color:white;
   font-family: 'Montserrat', sans-serif;
-  z-index: 1;
+  z-index: 1; /* posiciona un nivel al frente*/
 }
 section .first{
 	padding-top: 200px;
